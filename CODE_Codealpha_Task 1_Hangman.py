@@ -1,3 +1,5 @@
+# SHWETA SUNILKUMAR_CODE_Codealpha_Task 1_Hangman
+
 import random
 l = []
 newl = []
@@ -44,40 +46,3 @@ while chance < 7:
 
 print('The word is', z, '!')
 print(name[z])
-
-
-'''import random
-console_string = ""
-chance = 1
-words = ['apple','banana','orange']
-rand_word_num = random.randrange(0, 3)
-
-selected_word = words[rand_word_num]
-
-for a in selected_word:
-    print("_", end=" ")
-
-while chance <= 5:
-    user_char = input("Your guess: ")
-    if user_char in selected_word:
-        print("Yes!")
-        for b in selected_word:
-            if b!=user_char:
-                print("_", end=" ")
-            else:
-                print(user_char, end=" ")
-        console_string = input("Have you guessed? (Type the answer/no): ")
-        if console_string.lower() == "no":
-            pass
-        else:
-            if console_string == selected_word:
-                print("Success!!!")
-                chance = 6
-                break
-            else:
-                print("Sorry...")
-
-    else:
-        print("Not right...")
-        chance -= 1
-'''
